@@ -7,6 +7,8 @@
     "sanitize": "dist/index.js"
   },
   "scripts": {
+    "checking": "ts-node src/index.ts in/checking_2023.csv -o out/checking.csv",
+    "savings": "ts-node src/index.ts in/savings_2023.csv -o out/savings.csv",
     "build": "tsc",
     "lint": "eslint . --ext .ts"
   },
